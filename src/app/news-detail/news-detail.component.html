@@ -1,0 +1,4 @@
+<div *ngIf="news | async">
+    <p>{{(news | async).title}}</p>
+    <p>{{(news | async).content}}</p>
+</div>
